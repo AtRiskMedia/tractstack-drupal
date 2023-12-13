@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tractstack.field_context_panes
+    - field.field.node.tractstack.field_slug
+    - field.field.node.tractstack.field_social_image_path
+    - field.field.node.tractstack.field_story_fragments
+    - node.type.tractstack
+  module:
+    - user
+id: node.tractstack.teaser
+targetEntityType: node
+bundle: tractstack
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_context_panes: true
+  field_slug: true
+  field_social_image_path: true
+  field_story_fragments: true

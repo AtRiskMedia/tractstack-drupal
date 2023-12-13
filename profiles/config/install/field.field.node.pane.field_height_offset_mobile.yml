@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_height_offset_mobile
+    - node.type.pane
+id: node.pane.field_height_offset_mobile
+field_name: field_height_offset_mobile
+entity_type: node
+bundle: pane
+label: 'Height Offset - Mobile'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

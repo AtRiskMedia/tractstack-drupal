@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tailwind_background_colour
+    - node.type.story_fragment
+id: node.story_fragment.field_tailwind_background_colour
+field_name: field_tailwind_background_colour
+entity_type: node
+bundle: story_fragment
+label: 'Tailwind Background Colour'
+description: 'In the format bg-slate-50'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

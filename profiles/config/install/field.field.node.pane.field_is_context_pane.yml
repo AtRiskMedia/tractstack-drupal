@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_context_pane
+    - node.type.pane
+id: node.pane.field_is_context_pane
+field_name: field_is_context_pane
+entity_type: node
+bundle: pane
+label: 'Is Context Pane'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

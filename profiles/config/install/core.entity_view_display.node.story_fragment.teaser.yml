@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.story_fragment.field_context_panes
+    - field.field.node.story_fragment.field_menu
+    - field.field.node.story_fragment.field_panes
+    - field.field.node.story_fragment.field_slug
+    - field.field.node.story_fragment.field_social_image_path
+    - field.field.node.story_fragment.field_tailwind_background_colour
+    - field.field.node.story_fragment.field_tract_stack
+    - node.type.story_fragment
+  module:
+    - user
+id: node.story_fragment.teaser
+targetEntityType: node
+bundle: story_fragment
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_context_panes: true
+  field_menu: true
+  field_panes: true
+  field_slug: true
+  field_social_image_path: true
+  field_tailwind_background_colour: true
+  field_tract_stack: true

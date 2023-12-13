@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_action_lisp
+    - node.type.resource
+id: node.resource.field_action_lisp
+field_name: field_action_lisp
+entity_type: node
+bundle: resource
+label: 'Action Lisp'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

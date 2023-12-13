@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_markdown_body
+    - node.type.markdown
+id: node.markdown.field_markdown_body
+field_name: field_markdown_body
+entity_type: node
+bundle: markdown
+label: 'Markdown Body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

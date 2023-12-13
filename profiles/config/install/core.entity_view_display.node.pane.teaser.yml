@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pane.field_height_offset_desktop
+    - field.field.node.pane.field_height_offset_mobile
+    - field.field.node.pane.field_height_offset_tablet
+    - field.field.node.pane.field_height_ratio_desktop
+    - field.field.node.pane.field_height_ratio_mobile
+    - field.field.node.pane.field_height_ratio_tablet
+    - field.field.node.pane.field_image
+    - field.field.node.pane.field_image_svg
+    - field.field.node.pane.field_is_context_pane
+    - field.field.node.pane.field_markdown
+    - field.field.node.pane.field_options
+    - field.field.node.pane.field_slug
+    - node.type.pane
+  module:
+    - user
+id: node.pane.teaser
+targetEntityType: node
+bundle: pane
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_height_offset_desktop: true
+  field_height_offset_mobile: true
+  field_height_offset_tablet: true
+  field_height_ratio_desktop: true
+  field_height_ratio_mobile: true
+  field_height_ratio_tablet: true
+  field_image: true
+  field_image_svg: true
+  field_is_context_pane: true
+  field_markdown: true
+  field_options: true
+  field_slug: true

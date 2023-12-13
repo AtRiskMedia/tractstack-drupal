@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_options
+    - node.type.pane
+id: node.pane.field_options
+field_name: field_options
+entity_type: node
+bundle: pane
+label: Options
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '{}'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

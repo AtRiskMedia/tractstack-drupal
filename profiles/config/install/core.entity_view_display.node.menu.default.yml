@@ -2,41 +2,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.menu.field_image_logo
     - field.field.node.menu.field_options
-    - field.field.node.menu.field_svg_logo
     - field.field.node.menu.field_theme
     - node.type.menu
   module:
-    - file
     - user
 id: node.menu.default
 targetEntityType: node
 bundle: menu
 mode: default
 content:
-  field_image_logo:
-    type: file_default
-    label: above
-    settings:
-      use_description_as_link_text: true
-    third_party_settings: {  }
-    weight: 106
-    region: content
   field_options:
     type: basic_string
     label: above
     settings: {  }
     third_party_settings: {  }
     weight: 104
-    region: content
-  field_svg_logo:
-    type: file_default
-    label: above
-    settings:
-      use_description_as_link_text: true
-    third_party_settings: {  }
-    weight: 105
     region: content
   field_theme:
     type: string

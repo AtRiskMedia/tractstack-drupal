@@ -3,9 +3,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.menu.field_image_logo
     - field.field.node.menu.field_options
-    - field.field.node.menu.field_svg_logo
     - field.field.node.menu.field_theme
     - node.type.menu
   module:
@@ -21,7 +19,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_image_logo: true
   field_options: true
-  field_svg_logo: true
   field_theme: true

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.menu
+    - node.type.pane
+    - node.type.resource
+    - node.type.story_fragment
+    - node.type.tractstack
+  module:
+    - file
+    - node
+id: builder
+label: Builder
+weight: 3
+is_admin: null
+permissions:
+  - 'delete own files'
+  - 'edit own menu content'
+  - 'edit own pane content'
+  - 'edit own resource content'
+  - 'edit own story_fragment content'
+  - 'edit own tractstack content'

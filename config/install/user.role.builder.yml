@@ -1,7 +1,7 @@
-langcode: en
 status: true
 dependencies:
   config:
+    - node.type.markdown
     - node.type.menu
     - node.type.pane
     - node.type.resource
@@ -15,9 +15,41 @@ label: Builder
 weight: 3
 is_admin: null
 permissions:
+  - 'access content overview'
+  - 'create markdown content'
+  - 'create menu content'
+  - 'create pane content'
+  - 'create resource content'
+  - 'create story_fragment content'
+  - 'create tractstack content'
   - 'delete own files'
+  - 'delete own markdown content'
+  - 'delete own menu content'
+  - 'delete own pane content'
+  - 'delete own resource content'
+  - 'delete own story_fragment content'
+  - 'delete own tractstack content'
+  - 'edit any markdown content'
+  - 'edit any menu content'
+  - 'edit any pane content'
+  - 'edit any resource content'
+  - 'edit any story_fragment content'
+  - 'edit any tractstack content'
+  - 'edit own markdown content'
   - 'edit own menu content'
   - 'edit own pane content'
   - 'edit own resource content'
   - 'edit own story_fragment content'
   - 'edit own tractstack content'
+  - 'revert markdown revisions'
+  - 'revert menu revisions'
+  - 'revert pane revisions'
+  - 'revert resource revisions'
+  - 'revert story_fragment revisions'
+  - 'revert tractstack revisions'
+  - 'view markdown revisions'
+  - 'view menu revisions'
+  - 'view pane revisions'
+  - 'view resource revisions'
+  - 'view story_fragment revisions'
+  - 'view tractstack revisions'

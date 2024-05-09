@@ -15,6 +15,7 @@ label: Builder
 weight: 3
 is_admin: null
 permissions:
+  - 'access user profiles'
   - 'access content overview'
   - 'create markdown content'
   - 'create menu content'
